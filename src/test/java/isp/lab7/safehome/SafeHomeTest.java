@@ -3,6 +3,9 @@ package isp.lab7.safehome;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 import static org.junit.Assert.*;
 
 public class SafeHomeTest {
@@ -12,6 +15,7 @@ public class SafeHomeTest {
     @Before
     public void instantiateDoorController() {
         //INITIALISE CONTROLLER OBJECT HERE
+        ctrl = new DoorLockController(new HashMap<>(), new ArrayList<>(), new Door(DoorStatus.CLOSE));
     }
 
     // >>>> DO NOT CHANGE CODE AFTER THIS LINE ! <<<<

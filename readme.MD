@@ -18,9 +18,11 @@ Implement a safe home access Java application based on the diagram above. Consid
 
 ## Exercise 2 - State machine diagram
 
-For Safe Home Access application create _UML state machine_ diagram.  
+For Safe Home Access application create _UML state machine_ diagram.
+!["State Machine"](docs/stateMachineImg.jpg)  
 
 ## Exercise 3 - Use case diagram
 
 For Safe Home Access application create _UML use case_ diagram. 
+!["Use Case"](docs/useCaseImg.jpg)
 
