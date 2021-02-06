@@ -1,8 +1,9 @@
 package isp.lab7.safehome;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class AccessLog {
+public class AccessLog implements Serializable {
     private String tenantName;
     private LocalDateTime localDateTime;
     private String operation;
